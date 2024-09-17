@@ -14,8 +14,8 @@ for number in numbers:
 
     if is_prime:
         primes.append(number)
+    else:
         not_primes.append(number)
 
-print("Primes: ", primes)
-print("Not primes ", not_primes)
-
+print("Primes:", primes)
+print("Not primes:", not_primes)
